@@ -1,5 +1,5 @@
 #Small Mapping App
-Just a small mapping app using JavaScript for ArcGIS, with US states census information (the layer can change)
+Just a small mapping app using JavaScript for ArcGIS, with US states census information (the layer can change).
 Has several functionalities, like search address, bookmarks, content table, records table.
 
 ##Getting Started
