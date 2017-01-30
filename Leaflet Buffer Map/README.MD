@@ -12,7 +12,5 @@ Just open index.html on a browser, fill the menu with the number of vertices, an
 ##Built with
 * [JavaScript for ArcGIS](https://developers.arcgis.com/javascript/3/) - Mapping javascript library
 
-##Versioning
-
 ##Authors
 * **João Manuel**
