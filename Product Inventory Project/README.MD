@@ -19,9 +19,9 @@ food.removeProduct(2)
 console.log(food.inventoryValue());
 ```
 
-Constructors - Product and Inventory
+Constructors - Product and Inventory.
 
-Inventory methods - addNewProduct, updateQuantityProduct, updatePriceProduct, removeProduct, inventoryValue
+Inventory methods - addNewProduct, updateQuantityProduct, updatePriceProduct, removeProduct, inventoryValue.
 
 
 ##Built with
