@@ -13,7 +13,7 @@ Just open index.html on a browser and explore the functionalities.
 * Feature table will show up if you click on polygon, with the information of that polygon.
 
 ##Built with
-* [Leaflet](http://leafletjs.com/) - Mapping javascript library
+* [JavaScript for ArcGIS](https://developers.arcgis.com/javascript/3/) - Mapping javascript library
 
 ##Versioning
 
