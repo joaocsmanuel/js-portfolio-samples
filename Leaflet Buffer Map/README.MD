@@ -14,8 +14,7 @@ Just click the index.html, fill the menu with the number of vertices, and minimu
 
 ##Versioning
 
-##Authors
-    * **João Manuel**
+##Authors**João Manuel**
 
 ##License
 
