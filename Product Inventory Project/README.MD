@@ -8,6 +8,7 @@ No need for installing.
 Just open app.html on a browser, press F12, and check the console for the results.
 The output is set inside of the file starting on the line 64:
 
+```
 var food = new Inventory("food", []);
 food.addNewProduct(new Product(1, 7, 100));
 food.addNewProduct(new Product(2, 10, 300));
@@ -29,7 +30,3 @@ Inventory methods - addNewProduct, updateQuantityProduct, updatePriceProduct, re
 
 ##Authors
 * **João Manuel**
-
-##License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
