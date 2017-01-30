@@ -1,1 +1,0 @@
-Leaflet Buffer Map
