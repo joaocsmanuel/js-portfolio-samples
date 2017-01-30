@@ -1,6 +1,5 @@
 #Product Inventory Project
-Just small mapping app using JavaScript for ArcGIS, with US states census information (the layer can change)
-Has several functionalities, like search address, bookmarks, content table, records table.
+Small application which manages an inventory of products. The product class has a price, id, and quantity on hand and an inventory which keeps track of various products and can sum up the inventory value.
 
 ##Getting Started
 No need for installing.
