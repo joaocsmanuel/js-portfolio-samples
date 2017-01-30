@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>FeatureLayer</title>
+
+<link rel="stylesheet" href="https://js.arcgis.com/3.19/dijit/themes/nihilo/nihilo.css">
+<link rel="stylesheet" href="https://js.arcgis.com/3.19/esri/css/esri.css">
+<link rel="stylesheet" href="css/styles.css">
+
+<script src="https://js.arcgis.com/3.19/"></script>
+<script src="js/app.js"></script>
+</head>
+<body class="nihilo">
+	<div id="search"></div>
+	<div id="toolbar">
+		<div id="bookmarksButton" data-dojo-type="dijit.form.DropDownButton">
+			<span>Bookmarks</span>
+			<div data-dojo-type="dijit.TooltipDialog">
+			  <div id="bookmarks"></div>
+			</div>
+		</div>
+		<div id="legendButton" data-dojo-type="dijit.form.Button">
+			<span>Legend</span>
+		</div>
+	</div>
+	<div id="legendPane" style="display: none;"><div id="legend"></div></div>
+	<div id="map">
+		<div id="basemapToggle"></div>
+	</div>
+	<div id="borderContainer" data-dojo-type="dijit.layout.BorderContainer" data-dojo-props="design:'headline'">
+		<div id="contentPane" data-dojo-type="dijit.layout.ContentPane"></div>
+	</div>
+</body>
+
+</html>
