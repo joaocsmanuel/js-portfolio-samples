@@ -20,6 +20,7 @@ console.log(food.inventoryValue());
 ```
 
 Constructors - Product e Inventory
+
 Inventory methods - addNewProduct, updateQuantityProduct, updatePriceProduct, removeProduct, inventoryValue
 
 
