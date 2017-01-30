@@ -19,7 +19,3 @@ Just open index.html on a browser and explore the functionalities.
 
 ##Authors
 * **João Manuel**
-
-##License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
