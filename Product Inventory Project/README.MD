@@ -26,7 +26,5 @@ Inventory methods - addNewProduct, updateQuantityProduct, updatePriceProduct, re
 ##Built with
 * JavaScript
 
-##Versioning
-
 ##Authors
 * **João Manuel**
