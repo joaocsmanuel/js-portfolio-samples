@@ -16,7 +16,3 @@ Just open index.html on a browser, fill the menu with the number of vertices, an
 
 ##Authors
 * **João Manuel**
-
-##License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
