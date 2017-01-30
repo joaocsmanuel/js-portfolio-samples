@@ -4,20 +4,20 @@ mapping library Leaflet.
 Its produces buffers with a number of vertices, min and max distance as
 an input.
 
-#Getting Started
+##Getting Started
 No need for installing.
 
 Just click the index.html, fill the menu with the number of vertices, and minimum and maximum distance, and press the map anywhere. Polygon buffer will show up with that exact number of vertices and that distance interval. There's also other functionalities, like change type of map and zooming.
 
-#Built with
+##Built with
 * [Leaflet](http://leafletjs.com/) - Mapping javascript library
 
-#Versioning
+##Versioning
 
-#Authors
+##Authors
 
     * **João Manuel**
 
-#License
+##License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
