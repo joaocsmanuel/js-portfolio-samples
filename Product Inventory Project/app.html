@@ -1,0 +1,72 @@
+
+<script>
+function Product(id, price, quantity){
+	this.id = id;
+	this.price = price;
+	this.quantity = quantity;
+}
+
+function Inventory(name, products){
+	this.name = name;
+	this.products = products;
+}
+
+Inventory.prototype.addNewProduct = function(product){
+	this.products.push(product);
+}
+
+Inventory.prototype.updateQuantityProduct = function(id, quantity, string){
+    for(product in this.products){
+        if(this.products[product].id == id){
+            if(string == "add"){
+              this.products[product].quantity = this.products[product].quantity + quantity;
+            }else if(string == "remove"){
+              this.products[product].quantity = this.products[product].quantity - quantity;
+            }
+        }
+    }
+}
+
+Inventory.prototype.updatePriceProduct = function(id, price, string){
+    for(product in this.products){
+        if(this.products[product].id == id){
+            if(string == "add"){
+              this.products[product].price = this.products[product].price + price;
+            }else if(string == "remove"){
+              this.products[product].price = this.products[product].price - price;
+            }
+        }
+    }
+}
+
+
+Inventory.prototype.removeProduct = function(id){
+	var index = this.products[id];
+   	for(prod in this.products){
+        if(this.products[prod].id == id){
+            index = this.products.indexOf(this.products[prod])
+           //.delete(this.products[prod]);
+            if (index > -1) {
+                this.products.splice(index, 1);
+            }
+    	}
+    }
+}
+
+Inventory.prototype.inventoryValue = function(){
+  sum = 0;
+  for(prod in this.products){
+    sum = sum + this.products[prod].price*this.products[prod].quantity;
+  }
+  return sum;
+}
+  
+var food = new Inventory("food", []);
+food.addNewProduct(new Product(1, 7, 100));
+food.addNewProduct(new Product(2, 10, 300));
+food.addNewProduct(new Product(3, 5, 55));
+food.updateQuantityProduct(1, 50, "remove");
+food.removeProduct(2)
+
+console.log(food.inventoryValue());
+</script>
