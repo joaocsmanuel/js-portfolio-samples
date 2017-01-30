@@ -145,19 +145,19 @@ require([
 		};
 
 		function createNode(name, attributes){
-			var node = document.createElement(name);
+			var oNode = document.createElement(name);
 			if(attributes){
 				for(var attr in attributes)
 					if (attributes.hasOwnProperty(attr))
-						node.setAttribute(attr, attributes[attr]);
+						oNode.setAttribute(attr, attributes[attr]);
 			}
 			for (var i = 2; i < arguments.length; i++) {
-				var child = arguments[i];
+				var oChild = arguments[i];
 				if(typeof child == "string")
-					child = document.createTextNode(child);
-				node.appendChild(child);
+					oChild = document.createTextNode(oChild);
+				oNode.appendChild(oChild);
 			}
-			return node;
+			return oNode;
 		}
 
 		function initContent(evt) {
